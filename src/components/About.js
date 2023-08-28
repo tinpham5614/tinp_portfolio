@@ -9,13 +9,15 @@ export default function About() {
           I'm Tin,
           <br className="hidden lg:inline-block" /> a software developer.
         </h1>
+        <div className="flex justify-center">
         <iframe
           src="https://giphy.com/embed/qgQUggAC3Pfv687qPC"
           width="480"
           height="360"
-          className="mx-auto mb-4"
+          className="mx-auto mb-4 rounded-lg shadow-lg position-relative"
           title="developer"
         ></iframe>
+        </div>
         <p className="mb-4">
           <a
             href="https://giphy.com/gifs/dommespace-domme-space-programador-qgQUggAC3Pfv687qPC"
