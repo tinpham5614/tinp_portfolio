@@ -32,6 +32,10 @@ export default function App() {
         <h1 className="sm:text-4xl font-medium title-font text-gray-800 mt-4 text-center">
           Contact
         </h1>
+        <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-800">
+          Feel free to reach out to me if you have any questions or just want to
+          say hi!
+        </p>
         <form
           onSubmit={handleSubmit(onSubmit)}
           className="mx-auto mt-8 w-1/2 text-left"
