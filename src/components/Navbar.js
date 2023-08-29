@@ -9,7 +9,7 @@ export default function Navbar() {
           className="title-font font-medium text-white mb-4 md:mb-0"
           href="#about"
         >
-          <a href="#about" className="ml-3 text-xl text-white scroll">
+          <a href="/" className="ml-3 text-xl text-white">
             Tin
           </a>
         </a>
@@ -31,7 +31,7 @@ export default function Navbar() {
           </a>
         </nav>
         <a
-          href="/"
+          href="#about"
           className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-900 rounded text-lg fixed bottom-0 right-0 mb-4 mr-4"
         >
           <ArrowUpCircleIcon className="w-5 h-5 text-white" />
