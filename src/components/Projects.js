@@ -17,9 +17,19 @@ export default function Projects() {
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
-            <a href={project.link} target="_blank" rel="noreferrer" key={project.image} className="sm:w-1/2 w-100 p-4">
+            <a
+              href={project.link}
+              target="_blank"
+              rel="noreferrer"
+              key={project.image}
+              className="sm:w-1/2 w-100 p-4 relative"
+            >
               <div className="flex relative">
-                <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center rounded-lg" src={project.image} />
+                <img
+                  alt="gallery"
+                  className="absolute inset-0 w-full h-full object-center rounded-lg"
+                  src={project.image}
+                />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.subtitle}
@@ -28,6 +38,14 @@ export default function Projects() {
                     {project.title}
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
+                  <a
+                    href={project.link_github}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="absolute bottom-0 left-1/2 transform -translate-x-1/2 text-white py-2 px-4 rounded-lg hover:bg-gray-900 hover:underline"
+                  >
+                    View on GitHub
+                  </a>
                 </div>
               </div>
             </a>

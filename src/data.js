@@ -10,6 +10,7 @@ export const projects = [
       "Developed a responsive and mobile-friendly health information search engine using React and an API from the U.S. Department of Health and Human Services. Provided health recommendations for various age groups and helped individuals take preventive measures to maintain their health",
     image: project1_image,
     link: "https://tinpham5614.github.io/HealthFinder/",
+    link_github:"https://github.com/SeattleColleges/belindas-closet-android"
   },
   {
     title: "Belinda's Closet",
@@ -18,6 +19,7 @@ export const projects = [
       "Developed Belinda's Closet application to cater to students' graduation day clothing needs, later expanding to include professional attire for interviews and work. Implemented a user-friendly platform accessible on desktop and mobile devices, empowering staff to manage inventory and enabling seamless clothing searches for students",
     image: project2_image,
     link: "/",
+    link_github:"https://github.com/SeattleColleges/belindas-closet-android"
   },
   {
     title: "North Seattle College Events",
@@ -26,5 +28,6 @@ export const projects = [
       "Developed a cohesive and user-friendly application that enables school staff and admin to organize events in a visible manner, providing students with a more manageable and interactive platform compared to the overwhelming Canvas notifications. Implemented distinct sections within the app, allowing students to personalize their experience by organizing and accessing events based on their interests, fostering a more engaging and purpose-driven user interaction.",
     image: project3_image,
     link: "/",
+    link_github:"https://github.com/SeattleColleges/nsc-events-nextjs"
   },
 ];
