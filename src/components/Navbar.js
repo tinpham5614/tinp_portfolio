@@ -1,5 +1,6 @@
 import { ArrowUpCircleIcon } from "@heroicons/react/24/solid";
 import React from "react";
+import githubIcon from "../images/github.png";
 
 export default function Navbar() {
   return (
@@ -14,7 +15,10 @@ export default function Navbar() {
           </a>
         </a>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <a href="#about" className="mr-8 text-white text-lg after:content-[''] after:block after:w-0 after:h-1 after:bg-gray-200 after:transition-all after:duration-500 hover:after:w-full">
+          <a
+            href="#about"
+            className="mr-8 text-white text-lg after:content-[''] after:block after:w-0 after:h-1 after:bg-gray-200 after:transition-all after:duration-500 hover:after:w-full"
+          >
             About
           </a>
           <a
@@ -30,6 +34,15 @@ export default function Navbar() {
             Contact
           </a>
         </nav>
+        <a
+          href="https://github.com/tinpham5614"
+          target="_blank"
+          rel="noreferrer"
+          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-900 rounded text-lg fixed top-1/2 right-0 mb-4 ml-4"
+        >
+          <img src={githubIcon} alt="github" className="w-5 h-5 text-white" />
+          <span className="ml-1 text-white">GitHub</span>
+        </a>
         <a
           href="#about"
           className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-900 rounded text-lg fixed bottom-0 right-0 mb-4 mr-4"
