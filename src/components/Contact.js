@@ -56,6 +56,8 @@ export default function App() {
               </label>
               <input
                 className="w-full px-4 py-2 text-gray-800 bg-gray-100 rounded border-2 border-gray-800"
+                required={true}
+                type="email"
                 {...register("email")}
               />
             </div>
