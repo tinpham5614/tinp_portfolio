@@ -1,8 +1,7 @@
 import { useForm } from "react-hook-form";
-import {
-  BookOpenIcon,
-  ChatBubbleBottomCenterIcon,
-} from "@heroicons/react/24/solid";
+import { BookOpenIcon, ArrowUpCircleIcon } from "@heroicons/react/24/solid";
+import githubIcon from "../images/github.png";
+import linkedinIcon from "../images/linkedin.png";
 import emailjs from "@emailjs/browser";
 import env from "react-dotenv";
 
@@ -89,11 +88,28 @@ export default function App() {
                 rel="noreferrer"
                 className="text-gray-800"
               >
-                <ChatBubbleBottomCenterIcon className="w-5 h-5" />
+                <img src={githubIcon} alt="github" className="w-8 h-8" />
+              </a>
+              <a
+                href="https://linkedin.com/tinpham5614"
+                target="_blank"
+                rel="noreferrer"
+                className="ml-3 text-gray-800"
+              >
+                <img src={linkedinIcon} alt="linkedin" className="w-8 h-8" />
               </a>
             </span>
           </div>
         </footer>
+        <aside className="fixed bottom-0 right-0">
+          <a
+            href="#about"
+            className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-900 rounded text-lg fixed bottom-0 right-0 mb-4 mr-4"
+          >
+            <ArrowUpCircleIcon className="w-5 h-5 text-white" />
+            <span className="ml-1 text-white">Back to top</span>
+          </a>
+        </aside>
       </div>
     </section>
   );
