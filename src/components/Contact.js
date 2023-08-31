@@ -91,7 +91,7 @@ export default function App() {
                 <img src={githubIcon} alt="github" className="w-8 h-8" />
               </a>
               <a
-                href="https://linkedin.com/tinpham5614"
+                href="https://www.linkedin.com/in/tinpham5614/"
                 target="_blank"
                 rel="noreferrer"
                 className="ml-3 text-gray-800"
