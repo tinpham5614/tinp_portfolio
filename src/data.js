@@ -1,8 +1,18 @@
+import project_image from "./images/project.png";
 import project1_image from "./images/project1.png";
 import project2_image from "./images/project2.png";
 import project3_image from "./images/project3.png";
 
 export const projects = [
+  {
+    title: "Appwrite Compress Image Function",
+    subtitle: "Java",
+    description:
+      "Created a compressed image function in Java for Appwrite Functions, enhancing image compression capabilities through integration with Tinypng and Krakenio services. Utilized secret keys, handled base64-encoded image payloads, and contributed to the open-source development of server functionality.",
+    image: project_image,
+    link: "https://github.com/open-runtimes/examples/pull/174",
+    link_github:"https://github.com/tinpham5614/examples/tree/main/java/compress_image"
+  },
   {
     title: "Health Finder Search App",
     subtitle: "ReactJS",
