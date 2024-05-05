@@ -32,7 +32,7 @@ export default function About() {
         </p>
         <div className="flex justify-center">
           <a
-            href="https://drive.google.com/file/d/1FA43erkaqD8FB_Vd3nbDjUgnd9MpwRjq/view"
+            href="https://drive.google.com/file/d/1prNddjWbb2Xi1V8FhBJ-2HVYG8CkjCW2/view"
             target="_blank"
             rel="noreferrer"
             className="inline-flex text-white bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 rounded text-lg hover:underline"
