@@ -1,4 +1,4 @@
-import { UserCircleIcon } from "@heroicons/react/24/solid";
+import { UserCircleIcon, ArrowTopRightOnSquareIcon } from "@heroicons/react/24/solid";
 
 export default function About() {
   return (
@@ -36,7 +36,7 @@ export default function About() {
             rel="noreferrer"
             className="inline-flex text-white bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 rounded text-lg hover:underline"
           >
-            My Resume
+            My Resume <ArrowTopRightOnSquareIcon className="ml-2 w-3 h-3 text-white" />
           </a>
         </div>
       </div>
