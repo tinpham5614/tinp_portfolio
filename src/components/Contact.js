@@ -103,7 +103,7 @@ export default function App() {
         </footer>
         <aside className="fixed bottom-0 right-0">
           <a
-            href="#about"
+            href="#navbar"
             className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-900 rounded text-lg fixed bottom-0 right-0 mb-4 mr-4"
           >
             <ArrowUpCircleIcon className="w-5 h-5 text-white" />

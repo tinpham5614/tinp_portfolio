@@ -26,13 +26,12 @@ export default function About() {
           </a>
         </p>
         <p className="mb-8 sm:text-lg text-gray-800 leading-relaxed text-center max-w-3xl mx-auto">
-          Currently pursuing a Bachelor's degree in Application Development with
-          Android and web development. Seeking an internship opportunity to
-          learn and experience the real world of technology.
+          I'm a recent graduate with a Bachelor's degree in Application Development, specializing in web development.
+          I am currently seeking an internship or entry-level opportunity to gain practical experience and further my skills in the technology field.
         </p>
         <div className="flex justify-center">
           <a
-            href="https://drive.google.com/file/d/1prNddjWbb2Xi1V8FhBJ-2HVYG8CkjCW2/view"
+            href="https://drive.google.com/file/d/1prNddjWbb2Xi1V8FhBJ-2HVYG8CkjCW2/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="inline-flex text-white bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 rounded text-lg hover:underline"
