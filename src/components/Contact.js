@@ -24,6 +24,8 @@ export default function App() {
       });
   };
 
+  const currentYear = new Date().getFullYear()
+  
   return (
     <section id="contact" className="relative text-center">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
@@ -79,7 +81,7 @@ export default function App() {
         <footer className="text-gray-800 body-font">
           <div className="container px-5 mt-8 mx-auto flex items-center sm:flex-row flex-col">
             <p className="text-sm text-gray-800 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4 right-0">
-              © 2023 Tin Pham
+              © {currentYear} Tin Pham
             </p>
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
               <a
