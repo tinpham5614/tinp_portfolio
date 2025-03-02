@@ -4,8 +4,9 @@ import githubIcon from "../images/github.png";
 import linkedinIcon from "../images/linkedin.png";
 import emailjs from "@emailjs/browser";
 import env from "react-dotenv";
+import { motion } from "framer-motion";
 
-export default function App() {
+export default function Contact() {
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => {
     alert(`🔔 Nice to meet you ${data.name}! Happy coding 😊!`);
@@ -24,10 +25,15 @@ export default function App() {
       });
   };
 
-  const currentYear = new Date().getFullYear()
-  
+  const currentYear = new Date().getFullYear();
+
   return (
-    <section id="contact" className="relative text-center">
+    <motion.section
+      id="contact"
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+    >
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <BookOpenIcon className="mx-auto inline-block w-10 mt-4 text-gray-800" />
         <h1 className="sm:text-4xl font-medium title-font text-gray-800 mt-4 text-center">
@@ -113,6 +119,6 @@ export default function App() {
           </a>
         </aside>
       </div>
-    </section>
+    </motion.section>
   );
 }

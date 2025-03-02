@@ -1,8 +1,15 @@
 import { UserCircleIcon, ArrowTopRightOnSquareIcon } from "@heroicons/react/24/solid";
+import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section id="about" className="relative text-center">
+    <motion.section
+      id="about"
+      className="relative text-center"
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+    >
       <div className="container px-5 py-24 mx-auto">
         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
           <UserCircleIcon className="mx-auto inline-block w-10 mb-2 mr-3 text-gray-800" />
@@ -10,13 +17,13 @@ export default function About() {
           <br className="hidden lg:inline-block" /> a software developer.
         </h1>
         <div className="flex justify-center">
-        <iframe
-          src="https://giphy.com/embed/qgQUggAC3Pfv687qPC"
-          width="480"
-          height="360"
-          className="mx-auto mb-4 rounded-lg shadow-lg position-relative"
-          title="developer"
-        ></iframe>
+          <iframe
+            src="https://giphy.com/embed/qgQUggAC3Pfv687qPC"
+            width="480"
+            height="360"
+            className="mx-auto mb-4 rounded-lg shadow-lg position-relative"
+            title="developer"
+          ></iframe>
         </div>
         <p className="mb-4">
           <a
@@ -40,6 +47,6 @@ export default function About() {
           </a>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
